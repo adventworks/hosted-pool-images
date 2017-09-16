@@ -1,6 +1,6 @@
 # VSTS hosted pool image - Visual Studio 2017 on Windows Server 2016
 
-Hosted pool image, Version 2017.08.1
+Version 2017.08.1
 
 ## Installed components
 
@@ -30,7 +30,7 @@ Hosted pool image, Version 2017.08.1
 | Microsoft Azure Service Fabric SDK | 2.7.198 |
 | Microsoft Azure Service Fabric | 5.7.198 |
 
-<sup>1</sup> Most of the workloads are installed along with VS 2017
+<sup>1</sup> Almost all of VS workloads are installed along with VS 2017
 
 <sup>2</sup> Azure/AzureRM PS module versions 3.8.0 and 4.2.1 are also saved on the image
 
