@@ -4,6 +4,10 @@ Version 2017.09.1
 
 ## Installed components
 
+\* Upgraded from previous update of image
+
+\** Will be removed in the next update of image
+
 | Component | Version | Location |
 |-----------|---------|----------|
 | Visual Studio 2017 Enterprise with the following workloads <ul> <li> Universal Windows Platform development </li><li> .NET desktop development </li><li> Desktop development with C++</li><li>ASP.NET and web development</li><li>Azure development</li><li>Node.js development</li><li>Data storage and processing</li><li>Office/SharePoint development</li><li>Mobile development with .NET</li><li>.NET Core cross-platform development</li></ul> | 15.3.5 * | C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise |
@@ -60,10 +64,6 @@ Version 2017.09.1
 | | 5.1.1 (API 22) ** | C:\Program Files (x86)\Android\android-sdk\platforms\android-22 |
 | | 5.0.1 (API 21) ** | C:\Program Files (x86)\Android\android-sdk\platforms\android-21 |
 | | 4.4.2 (API 19) ** | C:\Program Files (x86)\Android\android-sdk\platforms\android-19 |
-
-\* Upgraded from previous update of image
-
-\** Will be removed in the next update of image
 
 ## Known issues
 
