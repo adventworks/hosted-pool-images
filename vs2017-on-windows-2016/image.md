@@ -33,7 +33,7 @@ _SQL Server Data Tier Application Framework (x64) Version:_  14.0.3757.2
 ## WIX Tools *
 
 _Toolset Version:_ 3.11<br/>
-_WIX Toolset Studio 2017 Extension Version:_ 0.9.21.62588
+_WIX Toolset Studio 2017 Extension Version:_ 0.9.21.62588<br/>
 _Environment:_
 * WIX: Installation root of WIX
 
@@ -77,6 +77,37 @@ _SDK location:_ C:\Program Files\dotnet\sdk\1.0.4
 
 _Runtime location:_ C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.0.4<br/>
 _SDK location:_ C:\Program Files\dotnet\sdk\1.0.3
+
+## Powershell
+
+_Version:_ 5.1.1715
+
+## Azure/AzureRM Powershell modules
+
+#### 2.1.0
+
+This version is installed and is available via `Get-Module -ListAvailable`
+
+#### 3.8.0
+
+This version is saved but not installed.<br/>
+_Location:_ C:\Modules\azure_3.8.0 and C:\Modules\azurerm_3.8.0
+
+#### 4.2.1
+
+This version is saved but not installed.<br/>
+_Location:_ C:\Modules\azure_4.2.1 and C:\Modules\azurerm_4.2.1
+
+## Azure CLI
+
+_Version:_ 2.0.14<br/>
+_Environment:_
+* PATH: contains location of az.cmd
+
+## Azure Service Fabric *
+
+_SDK Version:_ 2.7.198.9494<br/>
+_Runtime Version:_ 5.7.198.9494
 
 ## Git
 
@@ -165,37 +196,6 @@ _Environment:_
 #### 2.7.13
 
 _Location:_ C:\Python27amd64
-
-## Powershell
-
-_Version:_ 5.1.1715
-
-## Azure/AzureRM Powershell modules
-
-#### 2.1.0
-
-This version is installed and and is available via `Get-Module -ListAvailable`
-
-#### 3.8.0
-
-This version is saved but not installed.<br/>
-_Location:_ C:\Modules\azure_3.8.0 and C:\Modules\azurerm_3.8.0
-
-#### 4.2.1
-
-This version is saved but not installed.<br/>
-_Location:_ C:\Modules\azure_4.2.1 and C:\Modules\azurerm_4.2.1
-
-## Azure CLI
-
-_Version:_ 2.0.14<br/>
-_Environment:_
-* PATH: contains location of az.cmd
-
-## Microsoft Azure Service Fabric *
-
-_SDK Version:_ 2.7.198.9494<br/>
-_Runtime Version:_ 5.7.198.9494
 
 ## Android SDK Build Tools
 
