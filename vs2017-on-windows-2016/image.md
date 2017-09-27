@@ -2,11 +2,9 @@
 
 Version 2017.09.1
 
-This article lists the software installed on machines in the **Hosted VS2017** pool in VSTS.
+The following software is installed on machines in the VSTS **Hosted VS2017** pool.
 
 Components marked with **\*** have been upgraded since the previous version of the image.
-
-Components marked with **\*\*** are planned to be removed in future versions of the image. You should update your applications to depend on newer versions of such components.
 
 ## Visual Studio 2017 Enterprise *
 
@@ -53,13 +51,14 @@ _Environment:_
 _Runtime location:_ C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.4<br/>
 _SDK location:_ C:\Program Files\dotnet\sdk\1.1.4
 
-#### 1.1.2 with SDK 1.0.4 **
+#### 1.1.2 with SDK 1.0.4
 
 _Runtime location:_ C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.2<br/>
 _SDK location:_ C:\Program Files\dotnet\sdk\1.0.4
 
-#### 1.1.1 with SDK 1.0.3 **
+#### <span style="color:#ED2836">1.1.1 with SDK 1.0.3</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Runtime location:_ C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.1.1<br/>
 _SDK location:_ C:\Program Files\dotnet\sdk\1.0.3
 
@@ -68,13 +67,15 @@ _SDK location:_ C:\Program Files\dotnet\sdk\1.0.3
 _Runtime location:_ C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.0.7<br/>
 _SDK location:_ C:\Program Files\dotnet\sdk\1.1.4
 
-#### 1.0.5 with SDK 1.0.4 **
+#### <span style="color:#ED2836">1.0.5 with SDK 1.0.4</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Runtime location:_ C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.0.5<br/>
 _SDK location:_ C:\Program Files\dotnet\sdk\1.0.4
 
-#### 1.0.4 with SDK 1.0.3 **
+#### <span style="color:#ED2836">1.0.4 with SDK 1.0.3</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Runtime location:_ C:\Program Files\dotnet\shared\Microsoft.NETCore.App\1.0.4<br/>
 _SDK location:_ C:\Program Files\dotnet\sdk\1.0.3
 
@@ -126,7 +127,9 @@ _Environment:_
 
 _Version:_ 6.10.0<br/>
 _Environment:_
-* PATH: contains location of node.exe
+* PATH: contains location of node.exe<br/>
+
+> Note: You can install and use another version of Node on the hosted agents using the [Node tool installer](https://docs.microsoft.com/en-us/vsts/build-release/tasks/tool/node-js) task.
 
 ## npm
 
@@ -158,12 +161,13 @@ _Environment:_
 
 _Location:_ C:\java\jdk\1.8.0_102
 
-#### 1.7.0_75 **
+#### 1.7.0_75
 
 _Location:_ C:\java\jdk\1.7.0_75
 
-#### 1.6.0_45 **
+#### <span style="color:#ED2836">1.6.0_45</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\java\jdk\1.6.0_45
 
 ## Ant
@@ -215,44 +219,54 @@ _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\25.0.0
 
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\24.0.3
 
-#### 24.0.2 **
+#### <span style="color:#ED2836">24.0.2</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\24.0.2
 
-#### 24.0.1 **
+#### <span style="color:#ED2836">24.0.1</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\24.0.1
 
-#### 24.0.0 **
+#### <span style="color:#ED2836">24.0.0</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\24.0.0
 
 #### 23.0.3
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\23.0.3
 
-#### 23.0.2 **
+#### <span style="color:#ED2836">23.0.2</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\23.0.2
 
-#### 23.0.1 **
+#### <span style="color:#ED2836">23.0.1</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\23.0.1
 
-#### 22.0.1 **
+#### <span style="color:#ED2836">22.0.1</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\22.0.1
 
-#### 21.1.2 **
+#### <span style="color:#ED2836">21.1.2</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\21.1.2
 
-#### 20.0.0 **
+#### <span style="color:#ED2836">20.0.0</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\20.0.0
 
-#### 19.1.0 **
+#### <span style="color:#ED2836">19.1.0</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\19.1.0
 
 ## Android SDK Platforms
@@ -269,14 +283,17 @@ _Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-24
 
 _Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-23
 
-#### 5.1.1 (API 22) **
+#### <span style="color:#ED2836">5.1.1 (API 22)</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-22
 
-#### 5.0.1 (API 21) **
+#### <span style="color:#ED2836">5.0.1 (API 21)</span>
 
+_Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-21
 
 #### 4.4.2 (API 19) **
 
+_This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-19
