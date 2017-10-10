@@ -1,4 +1,4 @@
-# VSTS Hosted VS2017 image
+# VSTS Hosted image
 
 Version 2017.10.01
 
