@@ -1,6 +1,6 @@
 # VSTS Hosted VS2017 image
 
-Version 2017.09.1
+Version 2017.10.02
 
 The following software is installed on machines in the VSTS **Hosted VS2017** pool.
 
@@ -8,7 +8,7 @@ Components marked with **\*** have been upgraded since the previous version of t
 
 ## Visual Studio 2017 Enterprise *
 
-_Version:_ 15.3.5<br/>
+_Version:_ 15.4.0<br/>
 _Location:_ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise
 
 The following workloads are installed with Visual Studio 2017:
@@ -22,13 +22,14 @@ The following workloads are installed with Visual Studio 2017:
 * Office/SharePoint development
 * Mobile development with .NET
 * .NET Core cross-platform development
+* Visual Studio extension development *
 
-## SQL Server Data Tools for VS 2017 *
+## SQL Server Data Tools for VS 2017
 
 _Version:_ 14.0.16121.0<br/>
 _SQL Server Data Tier Application Framework (x64) Version:_  14.0.3757.2
 
-## WIX Tools *
+## WIX Tools
 
 _Toolset Version:_ 3.11<br/>
 _WIX Toolset Studio 2017 Extension Version:_ 0.9.21.62588<br/>
@@ -107,8 +108,8 @@ _Environment:_
 
 ## Azure Service Fabric *
 
-_SDK Version:_ 2.7.198.9494<br/>
-_Runtime Version:_ 5.7.198.9494
+_SDK Version:_ 2.8.211.9494<br/>
+_Runtime Version:_ 6.0.211.9494
 
 ## Git
 
@@ -116,7 +117,7 @@ _Version:_ 2.14.1<br/>
 _Environment:_
 * PATH: contains location of git.exe
 
-## Git LFS *
+## Git LFS
 
 _Version:_ 2.3.0<br/>
 _Environment:_
@@ -137,13 +138,13 @@ _Version:_ 3.10.10<br/>
 _Environment:_
 * PATH: contains location of npm.cmd
 
-## Docker *
+## Docker
 
 _Version:_ 17.10.0-ee-preview-2<br/>
 _Environment:_
 * PATH: contains location of docker.exe
 
-## Docker-compose *
+## Docker-compose
 
 _Version:_ 1.16.1<br/>
 _Environment:_
@@ -178,9 +179,9 @@ _Environment:_
 * ANT_HOME: location of ant.cmd
 * COBERTURA_HOME: location of cobertura-2.1.1.jar
 
-## Maven
+## Maven *
 
-_Version:_ 3.2.2<br/>
+_Version:_ 3.5.0<br/>
 _Environment:_
 * PATH: contains location of mvn.bat
 * M2_HOME: Maven installation root
@@ -203,7 +204,11 @@ _Location:_ C:\Python27amd64
 
 ## Android SDK Build Tools
 
-#### 25.2.5
+#### 26.0.2 *
+
+_Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\26.0.2
+
+#### 25.0.2
 
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\25.0.2
 
@@ -271,6 +276,10 @@ _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\19.1.0
 
 ## Android SDK Platforms
 
+#### 8.0.0 (API 26) *
+
+_Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-26
+
 #### 7.1.1 (API 25)
 
 _Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-25
@@ -293,7 +302,7 @@ _Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-22
 _Warning: This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-21
 
-#### 4.4.2 (API 19) **
+#### <span style="color:#ED2836">4.4.2 (API 19)</span>
 
 _This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-19
