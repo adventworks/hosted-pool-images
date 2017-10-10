@@ -1,6 +1,6 @@
 # VSTS Hosted VS2017 image
 
-Version 2017.09.1
+Version 2017.10.01
 
 The following software is installed on machines in the VSTS **Hosted VS2017** pool.
 
