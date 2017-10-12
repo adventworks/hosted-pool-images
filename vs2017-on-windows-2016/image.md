@@ -12,17 +12,18 @@ _Version:_ 15.4.0<br/>
 _Location:_ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise
 
 The following workloads are installed with Visual Studio 2017:
-* Universal Windows Platform development
-* .NET desktop development
-* Desktop development with C++
-* ASP.NET and web development
-* Azure development
-* Node.js development
-* Data storage and processing
-* Office/SharePoint development
-* Mobile development with .NET
-* .NET Core cross-platform development
-* Visual Studio extension development *
+* [Universal Windows Platform development](_img/uwp.png)
+* [.NET desktop development](_img/dotnet.png)
+* [Desktop development with C++](_img/cpp.png)
+* [ASP.NET and web development](_img/uwp.png)
+* [Azure development](_img/azure.png)
+* [Node.js development](_img/nodejs.png)
+* [Data storage and processing](_img/data.png)
+* [Office/SharePoint development](_img/office.png)
+* [Mobile development with .NET](_img/mobile.png)
+* [.NET Core cross-platform development](_img/dotnet-xplat.png)
+* [Visual Studio extension development](_img/extension.png) *
+* [Additional components](_img/individual.png)
 
 ## SQL Server Data Tools for VS 2017
 
@@ -306,3 +307,10 @@ _Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-21
 
 _This version will be removed in a future update of the image.<br/>_
 _Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-19
+
+## Android NDK
+
+_Version:_ R13b
+_Environment:_
+* ANDROID_NDK_HOME: Location of NDK
+* ANDROID_NDK_PATH: Location of NDK
