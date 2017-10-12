@@ -310,7 +310,7 @@ _Location:_ C:\Program Files (x86)\Android\android-sdk\platforms\android-19
 
 ## Android NDK
 
-_Version:_ R13b
+_Version:_ R13b<br/>
 _Environment:_
 * ANDROID_NDK_HOME: Location of NDK
 * ANDROID_NDK_PATH: Location of NDK
