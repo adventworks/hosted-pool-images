@@ -12,18 +12,18 @@ _Version:_ 15.4.0<br/>
 _Location:_ C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise
 
 The following workloads are installed with Visual Studio 2017:
-* [Universal Windows Platform development](_img/uwp.png)
-* [.NET desktop development](_img/dotnet.png)
-* [Desktop development with C++](_img/cpp.png)
-* [ASP.NET and web development](_img/uwp.png)
-* [Azure development](_img/azure.png)
-* [Node.js development](_img/nodejs.png)
-* [Data storage and processing](_img/data.png)
-* [Office/SharePoint development](_img/office.png)
-* [Mobile development with .NET](_img/mobile.png)
-* [.NET Core cross-platform development](_img/dotnet-xplat.png)
-* [Visual Studio extension development](_img/extension.png) *
-* [Additional components](_img/individual.png)
+* Universal Windows Platform development
+* .NET desktop development
+* Desktop development with C++
+* ASP.NET and web development
+* Azure development
+* Node.js development
+* Data storage and processing
+* Office/SharePoint development
+* Mobile development with .NET
+* .NET Core cross-platform development
+* Visual Studio extension development *
+* Additional components
 
 ## SQL Server Data Tools for VS 2017
 
