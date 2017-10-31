@@ -23,7 +23,6 @@ The following workloads are installed with Visual Studio 2017:
 * Mobile development with .NET
 * .NET Core cross-platform development
 * Visual Studio extension development *
-* Additional components
 
 ## SQL Server Data Tools for VS 2017
 
