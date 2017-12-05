@@ -203,7 +203,7 @@ _Location:_ C:\Python27amd64
 
 ## Android SDK Build Tools
 
-#### 25.2.5
+#### 25.0.2
 
 _Location:_ C:\Program Files (x86)\Android\android-sdk\build-tools\25.0.2
 
