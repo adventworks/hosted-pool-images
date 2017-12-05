@@ -84,6 +84,12 @@ _SDK location:_ C:\Program Files\dotnet\sdk\1.0.3
 
 _Version:_ 5.1.1715
 
+## Azure CLI *
+
+_Version:_ 2.0.20<br/>
+_Environment:_
+* PATH: contains location of az.cmd
+
 ## Azure/AzureRM Powershell modules
 
 #### 2.1.0
@@ -100,20 +106,25 @@ _Location:_ C:\Modules\azure_3.8.0 and C:\Modules\azurerm_3.8.0
 This version is saved but not installed.<br/>
 _Location:_ C:\Modules\azure_4.2.1 and C:\Modules\azurerm_4.2.1
 
-## Azure CLI
+#### 5.0.0 *
 
-_Version:_ 2.0.14<br/>
-_Environment:_
-* PATH: contains location of az.cmd
+This version is saved but not installed.<br/>
+_Location:_ C:\Modules\azure_5.0.0 and C:\Modules\azurerm_5.0.0
 
 ## Azure Service Fabric *
 
 _SDK Version:_ 2.8.211.9494<br/>
 _Runtime Version:_ 6.0.211.9494
 
+## Cmake *
+
+_Version:_ 3.9.4<br/>
+_Environment:_
+* PATH: contains location of cmake.exe
+
 ## Git
 
-_Version:_ 2.14.1<br/>
+_Version:_ 2.15.0<br/>
 _Environment:_
 * PATH: contains location of git.exe
 
@@ -185,12 +196,6 @@ _Version:_ 3.5.0<br/>
 _Environment:_
 * PATH: contains location of mvn.bat
 * M2_HOME: Maven installation root
-
-## Cmake
-
-_Version:_ 3.8.0-rc4<br/>
-_Environment:_
-* PATH: contains location of cmake.exe
 
 ## Python (64 bit)
 
